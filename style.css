@@ -95,3 +95,53 @@ section {
     gap: 10px;
     margin-top: 10px;
 }
+
+/*styling for todolist*/
+section {
+    padding: 20px;
+    min-height: 80vh;
+    text-align: center;
+}
+
+ul.todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.todo-list li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+button {
+    background-color: #3388FF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0066CC;
+}
+
