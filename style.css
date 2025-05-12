@@ -64,3 +64,10 @@ footer a:hover {
 section {
     text-align: center;
 }
+
+#welcome {
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
