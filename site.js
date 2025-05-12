@@ -47,3 +47,7 @@ const welcomeDiv = document.getElementById("welcome");
 if (welcomeDiv) {
   welcomeDiv.textContent = message;
 }
+
+// Secret Message
+
+localStorage.setItem("It's a secret to everybody.", "I am Groot!");
